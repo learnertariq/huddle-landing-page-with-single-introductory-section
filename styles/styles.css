@@ -35,6 +35,8 @@ h3 {
 /* global section */
 .container {
   padding: 0 1rem;
+  max-width: 1100px;
+  margin: auto;
 }
 
 /* Grid */
@@ -117,9 +119,13 @@ h3 {
     text-align: start;
   }
 
+  .img.hero__image {
+    width: 700px;
+    justify-self: right;
+  }
+
   .hero__image {
     grid-area: 1/1/1/8;
-    min-width: 300px;
   }
 }
 
